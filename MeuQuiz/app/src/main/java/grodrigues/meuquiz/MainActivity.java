@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
     public void alertaResultado(View view){
         AlertDialog alertDialog;
         alertDialog = new AlertDialog.Builder(this).create();
-        alertDialog.setTitle("");
+        alertDialog.setTitle("Resultado ");
         alertDialog.setMessage("Voce acertou " + respostaCorreta + " questoes");
         alertDialog.show();
         btnOk.setEnabled(false);
